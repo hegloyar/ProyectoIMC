@@ -18,6 +18,9 @@ import java.util.List;
  *
  * @author Hector.Galvan
  */
+//Descripción: Clase de acceso a datos para las operaciones relacionadas con los cálculos del IMC.
+//Métodos principales: obtenerHistorico(int usuarioId), agregarCalculoIMC(CalculoIMC calculoIMC)
+
 public class CalculoIMCDao {
 
     // Este método recupera el historial de cálculos de IMC para un usuario específico
