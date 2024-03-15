@@ -19,6 +19,11 @@ import java.util.Date;
  *
  * @author galva
  */
+//Descripción: Servlet que maneja el cálculo del IMC para usuarios logueados.
+//Métodos principales: doPost(HttpServletRequest request, HttpServletResponse response)
+
+
+
 //@WebServlet("/CalcularIMCServlet")
 public class CalcularIMCServlet extends HttpServlet {
     private CalculoIMCDao calculoIMCDao;
