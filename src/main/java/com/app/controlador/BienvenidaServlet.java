@@ -21,6 +21,9 @@ import java.util.List;
  *
  * @author Hector.Galvan
  */
+//Descripción: Servlet que maneja la página de bienvenida que se muestra después del inicio de sesión o registro.
+//Métodos principales: doGet(HttpServletRequest request, HttpServletResponse response)
+
 //@WebServlet("/BienvenidaServlet")
 public class BienvenidaServlet extends HttpServlet {
 
