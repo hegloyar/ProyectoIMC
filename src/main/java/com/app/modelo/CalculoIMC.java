@@ -9,6 +9,9 @@ import java.util.Date;
  *
  * @author Hector.Galvan
  */
+//Descripción: Representa un cálculo del Índice de Masa Corporal (IMC) para un usuario.
+//Métodos principales: getCalculoId(), setCalculoId(), getImc(), setImc(), getEstadoNutricional(), setEstadoNutricional()
+
 public class CalculoIMC {
     private int calculoId;
     private int usuarioId;
