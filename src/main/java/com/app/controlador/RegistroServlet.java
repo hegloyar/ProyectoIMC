@@ -14,6 +14,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+//Descripción: Servlet que maneja el registro de nuevos usuarios y el cálculo inicial del IMC.
+//Métodos principales: doGet(HttpServletRequest request, HttpServletResponse response), doPost(HttpServletRequest request, HttpServletResponse response)
+
 //@WebServlet("/RegistroServlet")
 public class RegistroServlet extends HttpServlet {
 
