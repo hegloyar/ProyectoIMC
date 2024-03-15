@@ -23,6 +23,11 @@ import java.io.IOException;
  * 
  */
 
+
+//Descripción: Servlet que maneja el inicio de sesión de usuarios existentes.
+//Métodos principales: doGet(HttpServletRequest request, HttpServletResponse response), doPost(HttpServletRequest request, HttpServletResponse response)
+
+
 //@WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
 
