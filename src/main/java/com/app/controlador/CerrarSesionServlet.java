@@ -15,6 +15,10 @@ import java.io.IOException;
  *
  * @author galva
  */
+//Descripción: Servlet que maneja el cierre de sesión de usuarios.
+//Métodos principales: doGet(HttpServletRequest request, HttpServletResponse response)
+
+
 public class CerrarSesionServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Invalidar la sesión
