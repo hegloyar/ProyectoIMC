@@ -12,6 +12,9 @@ import java.util.Date;
  */
 
 
+//Descripción: Representa a un usuario de la aplicación.
+//Métodos principales: getUsuarioId(), setUsuarioId(), getNombreCompleto(), setNombreCompleto()
+
 public class Usuario {
     private int usuarioId;
     private String nombreCompleto;
