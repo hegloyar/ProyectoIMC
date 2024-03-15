@@ -17,6 +17,9 @@ import java.util.Date;
  *
  * @author galva
  */
+//Descripción: Clase de acceso a datos para las operaciones relacionadas con los usuarios.
+//Métodos principales: registrarUsuario(Usuario usuario), autenticarUsuario(String nombreUsuario, String password)
+
 public class UsuarioDAO {
 
     public static String determinarEstadoNutricional(float imc) {
